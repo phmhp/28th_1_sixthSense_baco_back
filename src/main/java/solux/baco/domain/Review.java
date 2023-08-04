@@ -82,7 +82,7 @@ public class Review {
     }
 
 
-    @Column(columnDefinition = "TEXT")
+    @Column(length=10000,columnDefinition = "TEXT")
     private String route_point;
     public String getRoute_point() {
         return route_point;
@@ -91,9 +91,6 @@ public class Review {
         this.route_point = route_point;
     }
 
-
-    @Column(length=10000)
-    private String route_point; //저장 타입 변경될 수도 있음.
 
     private int analyzed;
 
