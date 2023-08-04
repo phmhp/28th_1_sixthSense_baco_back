@@ -100,7 +100,7 @@ public class Review {
         this.analyzed = analyzed;
     }
 
-    private int analyzed;
+    private int analyzed = 0;
 
 
     @ManyToOne
