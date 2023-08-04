@@ -92,6 +92,14 @@ public class Review {
     }
 
 
+    public int getAnalyzed() {
+        return analyzed;
+    }
+
+    public void setAnalyzed(int analyzed) {
+        this.analyzed = analyzed;
+    }
+
     private int analyzed;
 
 
