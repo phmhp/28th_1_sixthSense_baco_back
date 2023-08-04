@@ -92,15 +92,16 @@ public class Review {
     }
 
 
-    public int getAnalyzed() {
+    public Integer getAnalyzed() {
         return analyzed;
     }
 
-    public void setAnalyzed(int analyzed) {
+    public void setAnalyzed(Integer analyzed) {
         this.analyzed = analyzed;
     }
 
-    private int analyzed = 0;
+    //int -> integer
+    private Integer analyzed;
 
 
     @ManyToOne
